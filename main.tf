@@ -19,6 +19,7 @@ variable "secret_key" {
 
 variable "something_else" {
   type = string
+  default = "my_value"
 }
 
 provider "aws" {
