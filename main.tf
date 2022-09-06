@@ -17,6 +17,10 @@ variable "secret_key" {
   type = string
 }
 
+variable "something_else" {
+  type = string
+}
+
 provider "aws" {
   region  = "us-east-2"
   access_key = var.access_key
